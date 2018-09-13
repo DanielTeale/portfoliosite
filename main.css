@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Play|Roboto+Mono');
+
+header {
+  background-image:linear-gradient(grey 5%, black, grey);
+  color: white;
+  padding: 0.5%;
+  /* border: 5px outset rgb(123, 134, 196); */
+  /* overflow: hidden; */
+  box-shadow: 0px 0px 2px 4px white;
+  position: fixed;
+  width:100%;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  opacity: 1;
+  z-index: 1;
+}
+
+  header h2 {
+    width: 50%;
+    display: inline-block;
+    margin: 1%;
+    font-family: "Abril Fatface", 'Times New Roman', Times, serif;
+    box-shadow: 2px 2px 1px 1px grey;
+    /* padding:1%; */
+    width: fit-content;
+    padding:0% 1%;
+  }
+  header nav ul{
+    list-style: none;
+    position: relative;
+    text-align: center;
+    /* overflow: hidden; */
+    margin: auto;
+    padding: 3px;
+    width: 100%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+  }
+
+  header nav li {
+    display: inline;
+    box-shadow: 2px 2px 2px 1px white;
+    padding: 3px;
+    margin: 5%;
+
+  }
+article {
+  background-image: url("./images/looking at mountain.jpg");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  padding: 0%;
+  width: 100%;
+  /* margin-top:10%; */
+  display: block;
+  flex-direction: row-reverse;
+  flex-flow: row-reverse;
+}
+
+  article div {
+    background-color: #008FBA;
+    opacity: 0.5;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+  }
+
+.others {
+  background-image: url("https://d1o50x50snmhul.cloudfront.net/wp-content/uploads/2017/05/15150622/g1gf9n.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+  .others p {
+    text-align: left;
+    position: relative;
+    /* margin:auto; */
+    margin:15%;
+    margin-bottom:30%;
+    margin-right: 60%;
+    color:transparent;
+    font-size: 36px;
+    font-family: 'Roboto Mono','Franklin Gothic Medium', 'Arial Narrow';
+    text-shadow: 0px 0px 4px white,2px 2px 0px black;
+    box-shadow: 2px 2px 3px 3px white;
+    padding: 2%;
+  }
